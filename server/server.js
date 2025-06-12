@@ -3,11 +3,8 @@ const fs = require("fs");
 const Papa = require("papaparse");
 const cors = require("cors");
 
-
 const app = express();
 app.use(cors());
-
-
 
 const PORT = 5000;
 let earthquakeData = [];
